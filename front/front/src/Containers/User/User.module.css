@@ -1,0 +1,28 @@
+form  {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 40px auto;
+      
+
+   
+}
+
+
+input {
+    margin-bottom: 10px;
+}
+
+.alert {
+    color: rgb(255, 0, 0);
+}
+
+.btn {
+    width: fit-content;
+    margin: auto;
+    padding: 2% 3%;
+    background-color: rgb(76, 0, 255);
+    color: white;
+}
+
+

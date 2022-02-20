@@ -1,0 +1,33 @@
+.icon {
+	padding-top: 8px;
+	margin: auto;
+	display: block;
+}
+
+
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #fff;
+}
+
+/******************************************************************************/
+/******************************************************************************/
+
+@media (max-width: 500px) {
+	nav{
+		height: auto;
+		width: 90%;
+	}
+
+	.icon {
+		margin-right: 10px;
+		vertical-align: text-top;
+		display: inline;
+	}
+   
+	
+}

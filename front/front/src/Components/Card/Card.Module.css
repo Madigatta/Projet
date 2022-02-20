@@ -1,0 +1,41 @@
+
+#root > div > article > a:nth-child(2) > figure{
+    min-width: 150px;
+    max-width: 350px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 1%;
+    margin: 5% auto;
+}
+
+
+aside > article{ 
+    min-width: 50px;
+    max-width: 350px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    padding: 1%;
+    margin: 1% auto;  
+}
+
+
+.smallCardUserInfos {
+    margin: 20px auto;
+}
+
+
+
+ .aside{
+    margin: 20px auto;
+
+}
+
+
+
+@media screen and (min-width: 600px ) {
+    .smallCardUserInfos {
+        position: fixed;
+        top: 90px;
+        right: 20px;
+    }
+}

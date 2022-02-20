@@ -1,0 +1,139 @@
+GLOBAL
+
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	background-color: rgb(230, 228, 228);
+}
+
+/* HEADINGS */
+h1 {
+	padding: 2%;
+	margin-top: 3%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.link-btn {
+	display: block;
+	width: fit-content;
+	margin: 10px auto;
+	font-size: 25px;
+	padding: 2%;
+	background-color:  #2F4F4F;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+/********************************************************************/
+
+/********************************************************************/
+
+
+.App {
+	text-align: center;
+	font-family: "Oswald-Regular", Arial, sans-serif;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+ 
+#root > div > header > nav > div{
+	display: flex;
+	align-items: center;
+	width: 40%;
+	margin: 0 auto;
+	justify-content: space-between;
+
+}
+#root > div > article > form > input[type=button]:nth-child(2){
+	background-color: rgba(0, 183, 255, 0.952);
+	color: white;
+}
+
+
+#root > div > article > a:nth-child(1){
+	color: rgba(0, 119, 255, 0.836)
+}
+
+
+
+.header-nav nav .list1 img {
+	width: 20%;
+}
+
+
+
+main {
+	width: 70%;
+	margin: 25px auto;
+}
+/**************************************************************/
+/* PAGE HOME */
+/**************************************************************/
+
+
+#presentation {
+	font-size: 18px;
+	font-family: "Oswald-SemiBold", cursive;
+	text-align: center;
+	margin-top: 1 auto;
+}
+
+#Home {
+	width: 70%;
+	display: block;
+	margin: auto;
+	margin-top: 1px;
+
+}
+
+/*****************************************************/
+/* Table du paiement */
+/********************************************************/
+
+.basketTable {
+	border: 2px solid #442fff;
+	border-radius: 12px;
+	padding: 15px 2%;
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+.basketTable tr {
+	border: 2px solid #ffbd2f;
+}
+
+.basketTable th {
+	padding: 0 3%;
+	width: 19%;
+	height: 40px;
+}
+
+.basketTable td {
+	padding: 0 3%;
+	width: 19%;
+	height: 40px;
+}
+
+.delete-product {
+color: white;
+	background-color:#2f5fff;
+}
+
+
+
